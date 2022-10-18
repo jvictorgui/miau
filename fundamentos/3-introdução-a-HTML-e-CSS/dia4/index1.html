@@ -1,41 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
+<html lang="pt">
+  <head>
     <meta charset="UTF-8">
-    <title>HTML</title>
-    <link rel="stylesheet" type="text/css" href="style2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
 
-</head>
+      .first {
+        background-color: rgb(235, 200, 84);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 200px;
+        display: block;
+        margin-left: 150px;
+      }
 
-<body>
-    <header>Veja essas cores lindas</header>
-    <nav>Links uteis</nav>
-    <main>
-        <h3>Vamos falar sore falcoes</h3>
-        <p> falcoes sao bixinhos lindos e tal</p>
+      .second {
+        background-color: rgb(219, 219, 219);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        margin-left:300px ;
+        width: 300px;
+        display: inline-block;
+        
+        
+        
+    }
 
 
-
-
-
-    </main>
-    <aside></aside>
-    <section></section>
-    <footer>
-        <aside>
-            <p>teste aside</p>
-        </aside>
-    </footer>
-    <article></article>
-    <h1 class="cores">Cores</h1>
-    <p>Qual é a sua cor favorita?</p>
-    <ul class="orderlist">
-        <li id="amr">Amarelo</li>
-        <li id="ver">Vermelho</li>
-        <li id="mar">Marrom</li>
-    </ul>
-    <a href="https://www.w3schools.com/" target="_blank"> <button type="button">login</button> </a>
-</body>
-
+      .third {
+        background-color: rgb(170, 142, 106);
+        font-size: 20px;
+        height: 50px;
+        text-align: center;
+        width: 300px;
+        display: inline-block;
+        
+        
+    }
+        
+        .li {
+            display: inline-block;
+        }
+        h3 {
+      text-align: center;
+    }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Hackathon Results</h1>
+    </header>
+    <section>
+      <ul class="teste">
+        <li class="first">1º - Equipe 1</li>
+        <li class="second">2º - Equipe 2</li>
+        <li class="third">3º - Equipe 3</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Premiação Primeiro Lugar:</h3>
+      <ul>
+        <li>| R$ 1000,00 por integrante da equipe |</li>
+        <li>| Bootcamp de 2 meses com possibilidade de contratação |</li>
+      </ul>
+      <h3>Premiação Segundo Lugar:</h3>
+      <ul>
+        <li>| R$ 600,00 por integrante da equipe |</li>
+        <li>| Participação no processo seletivo para o Bootcamp |</li>
+      </ul>
+      <h3>Premiação Terceiro Lugar:</h3>
+      <ul>
+        <li>| R$ 300,00 por integrante da equipe |</li>
+        <li>| Participação no processo seletivo para o Bootcamp |</li>
+      </ul>
+    </section>
+  </body>
 </html>
