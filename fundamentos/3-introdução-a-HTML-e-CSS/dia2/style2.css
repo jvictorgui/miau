@@ -30,6 +30,7 @@ body {
 }
 
 p {
+    font-weight:lighter;
     font-family: cursive, Arial, Helvetica, sans-serif;
 }
 
