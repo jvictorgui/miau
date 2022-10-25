@@ -1,12 +1,19 @@
-<style>
+
 h2 {
-    color: greenyellow;
-    font-size: 1em;
+    color: black;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: solid;
+    width: 100%;
+    background-color: gold;
+    
 }
 
 body {
     font-size: 20px;
     background-color: rgb(502, 200, 314);
+    line-height: 2em;       
+      
 }
 
 #junco {
@@ -30,3 +37,4 @@ p {
     font-weight: bold;
     line-height: 30px;
 }
+
